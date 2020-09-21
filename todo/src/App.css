@@ -1,0 +1,70 @@
+.App {
+  text-align: center;
+  margin: 10px;
+  margin-top: 400px;
+  width: 550px;
+  background: black;
+}
+i {
+  font-size: 12px;
+}
+
+input {
+  padding: 6px;
+  background: black;
+  border: none;
+  color: white;
+  font-size: 1.3rem;
+  border-bottom: 1px solid white;
+  margin: 15px;
+}
+
+input::placeholder {
+  color: white;
+  background: black;
+}
+
+.todo-input {
+  font-size: 24px;
+}
+
+input:focus {
+  outline: none;
+}
+
+h1 {
+  margin: 0;
+  color: white;
+}
+
+button {
+  padding: 6px 8px;
+  font-size: 16px;
+  background: white;
+  color: black;
+  border: 1px solid lightgray;
+  border-radius: 4px;
+  margin: 15px;
+}
+
+button:hover {
+  background-color: black;
+  color: white;
+}
+
+button:focus {
+  outline: none;
+}
+
+
+h4 {
+  margin: 4px 0;
+  border-bottom: 1px solid white;
+  color: white;
+  background: black;
+  padding: 6px;
+  position: relative;
+  width: 180px;
+  display: flex;
+  cursor: pointer;
+}

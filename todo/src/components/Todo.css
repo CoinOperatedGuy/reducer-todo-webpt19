@@ -1,0 +1,12 @@
+.item.selected {
+    background-color: white;
+    color: black;
+    text-decoration: line-through;
+  } 
+
+.item {
+    width: 500px;
+    margin: 15px;
+    color: white;
+    background: black;
+}  
